@@ -70,7 +70,10 @@ test.describe.serial("Page Object model - Saucedemo website",async() => {
          await Checkoutoverview.ClickFininsh();
          await Checkoutoverview.BackToHome();
      })
-     
+     /**
+     * This test case will be the used for 
+     * logout from website.
+     */
      
      test("Logout",async({page, baseURL}) =>{
         const login = new LoginPage(page);
